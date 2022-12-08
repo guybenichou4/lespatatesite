@@ -1,0 +1,18 @@
+.exemple {
+  color: rgb(255, 0, 0);
+  /* équivalent à
+  color: blue;
+  color: #0000ff;
+  color: #00f;
+  color: hsl(0, 100%, 50%); */
+}
+
+.confiture {
+  color: rgb(255, 136, 0);;
+  /* on pourrait aussi utiliser
+  color: rgb(255, 128, 0); */
+}
+
+exemple_un {
+  background-color: #6a2525;
+}
