@@ -9,72 +9,49 @@
 </head>
 
 <body>
- <style>
-  body {
-   background-color: rgba(255, 255, 128, .5);;
-}
-   </style>
-  <span class="exemple"><span class="p">
-   <h2> La patate de Terre: l'abonement</h2> </span>
+  <style>
+    body {
+      background-color: rgba(255, 255, 128, .5);
+      ;
+    }
+  </style>
+  <span class="rouge"><span class="p">
+      <h2> La patate de Terre: l'abonement</h2>
+    </span>
   </span>
-      
-  <span class="confiture">
+
+  <span class="orange">
     <h3>L'abonnement et ses avantages</h3>
   </span>
-  
-  <h4>L'abonnement vous permet de vous tenir au courant de toutes les innovations, les nouveaux couts et les différentes sortes de patates fde Terrre. Vous aurez des recettes en ligne, les meilleures qui soient. Si vous voulez vous abonnez, c'est ci dessous (10 euros par mois)</h4> 
 
-<form action="index.html">  <style>
-      button {
-        display: inline-block;
-        background-color: #7b38d8;
-        border-radius: 10px;
-        border: 4px double #cccccc;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 15px;
-        padding: 10px;
-        width: 100px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-      }
-      button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      button span:after {
-        content: "\00bb";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      button:hover {
-        background-color: #f7c2f9;
-      }
-      button:hover span {
-        padding-right: 25px;
-      }
-      button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <button>
-      <span>Page d'accueil</span>
-    </button>
-    </form>
-  
+  <h4>L'abonnement vous permet de vous tenir au courant de toutes les innovations, les nouveaux couts et les différentes
+    sortes de patates fde Terrre. Vous aurez des recettes en ligne, les meilleures qui soient. Si vous voulez vous
+    abonnez, c'est ci dessous (10 euros par mois)</h4>
+
+  <form action="index.html">
+
+    <head>
+      <a href="index.html"><input type="button" value="Page d'accueil"></a>
+  </form>
+
+  <p>Adresse mail:
+    <input type="text" placeholder="exemple.gmail.com" id="email">
+  </p>
+  <p>Nom:
+    <input type="text" placeholder="Nom" id="surname">
+  </p>
+
+  <p>Prénom:
+    <input type="text" placeholder="Prénom" id="name">
+  </p>
+
+  <button onclick="updateName();"> Change Name </button>
+
+
   <script src="script.js"></script>
 
 
 </body>
-  
+
 
 </html>

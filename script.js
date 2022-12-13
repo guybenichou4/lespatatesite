@@ -1,17 +1,33 @@
 
 
-alert("Salut c'est GUUUUUy(le créateur");
-
 
 let body = document.getElementsByTagName("body")[0]
-body.style.backgroundColor = "pink"
+let color = document.getElementsByTagName("input")[0]
+body.style.backgroundColor = "#fffff"
 
 
-let para = document.querySelector('p');
+let para = document.querySelector('d');
 
 para.addEventListener('click', updateName);
 
 function updateName() {
-  let name = prompt('Enter a new name');
-  para.textContent = 'Player 1: ' + name;
+
+  let name = document.getElementById('name');
+  window.location.href = "index.html";
+  localStorage.setItem('name', 'Guy');
 }
+function onLoad() {
+  let profil = document.getElementById('profil');
+  profil.innerHTML = localStorage.getItem('name');
+}
+
+function changecolor() {
+  let color = document.getElementById('colorpicker').value;
+  document.body.style.backgroundColor = color;
+
+}
+
+
+let changercouleur = document.querySelector('n');
+
+para.addEventListener('click')

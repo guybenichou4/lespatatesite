@@ -1,4 +1,4 @@
-.exemple {
+.rouge {
   color: rgb(255, 0, 0);
   /* équivalent à
   color: blue;
@@ -7,12 +7,22 @@
   color: hsl(0, 100%, 50%); */
 }
 
-.confiture {
+.orange {
   color: rgb(255, 136, 0);;
   /* on pourrait aussi utiliser
   color: rgb(255, 128, 0); */
 }
+.gris{
+  color: gray
+}
 
-exemple_un {
+
+.marron {
   background-color: #6a2525;
 }
+p, 
+ul {
+  border: 1px solid gray;
+  padding: .10em;
+
+

@@ -7,80 +7,69 @@
   <title>replit</title>
   <link href="script.css" rel="stylesheet">
 </head>
-<a></a>
-<body>
- <style>
-  body {
-   background-color: rgba(255, 255, 128, .5);;
-}
-   </style>
-  <span class="exemple">
-   <h1> La passion de la Patate de Terre</h1> </span>
-  
-  
-  <span class="confiture">
+
+<body onload="onLoad()">
+  <header>
+<p id="profil">Profil</p>
+    
+  </header>
+  <style>
+    body {
+      background-color: "rgba(255, 255, 128, .5)";
+      ;
+    }
+  </style>
+  <span class="rouge">
+    <h1> La passion de la Patate de Terre</h1>
+  </span>
+
+
+  <span class="orange">
     <h3>Son histoire:</h3>
   </span>
-  
-  <h4>La patate de terre nous vient d'Amérique du Sud. Elle est originaire des Andes du Chili et du Pérou. Elle débarque, logiquement, en Espagne en 1534. De là, en 1588, elle est envoyée en Autriche au savant botaniste Clusius qui la répand dans les Etats allemands.</h4> 
 
-<span class="confiture">
-  <h3> Son Prix </h3>
-</span>
-  <h4>En moyenne, pour acquérir 1000g de pommes de terre en France il en coûte 1.74 €. Ce montant peut diminuer jusqu'à 0.8 € et augmenter jusqu'à 3 € selon les villes. Ce tarif pour 1000g de pommes de terre est inférieur au coût pratiqué en France (-0%)</h4>
+  <h4>La patate de terre nous vient d'Amérique du Sud. Elle est originaire des Andes du Chili et du Pérou. Elle
+    débarque, logiquement, en Espagne en 1534. De là, en 1588, elle est envoyée en Autriche au savant botaniste Clusius
+    qui la répand dans les Etats allemands.</h4>
 
-  
+  <span class="orange">
+    <h3> Son Prix </h3>
+  </span>
+  <h4>En moyenne, pour acquérir 1000g de pommes de terre en France il en coûte 1.74 €. Ce montant peut diminuer jusqu'à
+    0.8 € et augmenter jusqu'à 3 € selon les villes. Ce tarif pour 1000g de pommes de terre est inférieur au coût
+    pratiqué en France (-0%)</h4>
 
-  <form action="new.html">  <style>
-      button {
-        display: inline-block;
-        background-color: #7b38d8;
-        border-radius: 10px;
-        border: 4px double #cccccc;
-        color: #eeeeee;
-        text-align: center;
-        font-size: 15px;
-        padding: 10px;
-        width: 110px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-      }
-      button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      button span:after {
-        content: "\00bb";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      button:hover {
-        background-color: #f7c2f9;
-      }
-      button:hover span {
-        padding-right: 25px;
-      }
-      button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
+
+
+  <form action="new.html">
+    <style>
+
     </style>
-  </head>
-  <body>
-    <button>
-      <span>Abonnement</span>
-    </button>
-    </form>
+    </head>
+
+    <body>
+      <button>
+        <span>Abonnement</span>
+      </button>
+  </form>
   <script src="script.js"></script>
-   
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-</body>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+
+
+
+
+
+
+  <h4>Changer la couleur de la page</h4>
+  <input id = "colorpicker" type = "color">
+  <button onclick = "changecolor();"> change Color </button>
   
+
+
+
+</body>
+
 
 </html>
